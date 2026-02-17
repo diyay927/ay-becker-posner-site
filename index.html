@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Becker-Posner Blog Archive</title>
+    <meta name="description" content="Complete archive of The Becker-Posner Blog (2004-2014) by Nobel laureate Gary Becker and Judge Richard Posner">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>The Becker-Posner Blog</h1>
+        <p class="subtitle">A Decade of Economic and Legal Commentary (2004-2014)</p>
+        <div class="authors">
+            <div class="author-card">
+                <strong>Gary S. Becker</strong><br>
+                <small>Nobel Laureate in Economics, 1992</small>
+            </div>
+            <div class="author-card">
+                <strong>Richard A. Posner</strong><br>
+                <small>U.S. Court of Appeals Judge</small>
+            </div>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="search-section">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search posts (e.g., 'healthcare', 'economics', 'law')...">
+                <div class="filter-buttons">
+                    <button class="filter-btn btn-all active" data-author="all">All</button>
+                    <button class="filter-btn btn-becker" data-author="becker">Becker</button>
+                    <button class="filter-btn btn-posner" data-author="posner">Posner</button>
+                </div>
+            </div>
+            <div class="stats-bar">
+                <div class="stat">
+                    <div class="stat-value" id="total-count">-</div>
+                    <div class="stat-label">Total Posts</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="becker-count">-</div>
+                    <div class="stat-label">By Becker</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value" id="posner-count">-</div>
+                    <div class="stat-label">By Posner</div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="posts-container">
+            <div class="loading">Loading posts...</div>
+        </section>
+    </main>
+    
+    <footer class="site-footer">
+        <p>This archive preserves the intellectual legacy of Gary Becker (1930-2014) and Richard Posner (1939-2021).</p>
+        <p>Content archived from the <a href="https://web.archive.org/web/*/www.becker-posner-blog.com/*">Wayback Machine</a>.</p>
+        <p><a href="https://github.com/YOUR_USERNAME/becker-posner-blog">View on GitHub</a></p>
+    </footer>
+    
+    <script src="assets/script.js"></script>
+</body>
+</html>
